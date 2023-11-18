@@ -15,7 +15,6 @@ def checkIfRunning():
         if "Cities2.exe" == process.Name:
             print("CS2 is running")
             flag = 1
-            break
 
     if flag == 0:
         print("CS2 is not running")
